@@ -1,6 +1,5 @@
-# Tutorial
 
-## Tutorial de como realizar o Filtro de Wiener  
+## Tutorial de como utilizar a implementação do Filtro de Wiener  
 
 
  É recomendado criar um ambiente virtual para essa aplicação, para isso, utilize:  
