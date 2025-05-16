@@ -14,8 +14,7 @@ class FiltroWiener:
         # Adiciona ruído gaussiano
         img_noisy = random_noise(img_blur, mode='gaussian', var=0.001)  # ruído 
 
-        #  Aplica Wiener deconvolution
-        #   balance controla a suposição de SNR (quanto menor = mais suavização)
+        #  Wiener deconvolution
         deconvolved, _ = restoration.unsupervised_wiener(img_noisy, psf)  # filtro de wiener não supervisionado 
 
         #Exibe os modelos resultante
