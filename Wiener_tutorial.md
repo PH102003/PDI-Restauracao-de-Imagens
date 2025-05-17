@@ -2,7 +2,7 @@
 ## Tutorial de como utilizar a implementação do Filtro de Wiener  
 
   
- Baixe a última versão do Python no site oficial: <https://www.python.org/downloads/>
+ * Baixe a última versão do Python no site oficial: <https://www.python.org/downloads/>
 
  É recomendado criar um ambiente virtual para essa aplicação, para isso, utilize:  
  
