@@ -16,8 +16,10 @@
 
   ```source .venv/bin/activate```
  
- * Por fim, baixe as bibliotecas que estão destacadas no arquivo "requirements.txt", usando o seguinte comando:  
+ * Baixe as bibliotecas que estão destacadas no arquivo "requirements.txt", usando o seguinte comando:  
  
  ```pip install -r requirements.txt```
-
+ * Por fim, execute o código utilizando o comando:
+   
+ ```python filtrowiener.py```
  
