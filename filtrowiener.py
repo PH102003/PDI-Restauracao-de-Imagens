@@ -25,7 +25,7 @@ class FiltroWiener:
         # Comparação com filtro adaptativo no SciPy
         from scipy.signal import wiener
         wiener_adapt = wiener(img_noisy, mysize=(5,5), noise=None)  # filtro local
-        axes[2].imshow(wiener_adapt, cmap='gray'); axes[2].set_title('Wiener local (SciPy)'); axes[2].axis('off')
+        axes[2].imshow(wiener_adapt, cmap='gray'); axes[2].set_title('Wiener local'); axes[2].axis('off')
 
         plt.tight_layout()
         plt.show()
