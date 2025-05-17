@@ -5,7 +5,7 @@ from scipy.signal import convolve2d
 from skimage.util import random_noise
 class FiltroWiener:
         # Carrega e converte para tons de cinza
-        img = color.rgb2gray(data.astronaut())  # imagem de exemplo
+        img = color.rgb2gray(data.astronaut())  # imagem exemplo
 
         # define o efeito de borrado (blur)
         psf = np.ones((5, 5)) / 25
